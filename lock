@@ -1,0 +1,324 @@
+
+
+
+
+
+
+
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+ <head>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="referrer" content="origin" />
+  <meta name="author" content="Michal Čihař" />
+  <meta name="copyright" content="Copyright &copy; 2003 - 2020 Michal Čihař" />
+  <meta name="robots" content="noindex,nofollow" />
+
+  <title>
+  Hosted Weblate
+
+</title>
+  <meta name="description" content="Hosted Weblate, the place to localize your software project." />
+  <meta name="twitter:card" content="summary_large_image" />
+
+  
+  <meta property="og:image" content="https://hosted.weblate.org/exports/og.png" />
+  <link rel="alternate" type="application/rss+xml" title="RSS feed" href="/exports/rss/" />
+  
+  
+  <link rel="preconnect" href="https://stats.cihar.com">
+  
+
+
+
+
+<link rel="stylesheet" href="/static/CACHE/css/output.d4a58441416c.css" type="text/css">
+
+  <link rel="stylesheet" type="text/css" href="https://s.weblate.org/cdn/font-source/source-sans-pro.css" />
+  <link rel="stylesheet" type="text/css" href="https://s.weblate.org/cdn/font-source/source-code-pro.css" />
+
+
+
+  <script src="/js/i18n/" defer></script>
+<script src="/static/CACHE/js/output.fd5a3a87167a.js" defer></script>
+
+
+
+
+  <link rel="image_src" type="image/png" href="/static/weblate-128.png"/>
+  <link rel="icon" type="image/png" sizes="32x32" href="/static/logo-32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/static/logo-16.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/static/weblate-180.png"/>
+  <link rel="mask-icon" href="/static/weblate-black.svg" color="#144d3f">
+  <meta name="msapplication-TileColor" content="#144d3f">
+  <meta name="msapplication-config" content="/browserconfig.xml">
+  <link rel="manifest" href="/site.webmanifest">
+  
+  <link rel="preconnect" href="https://stats.cihar.com/">
+  
+  <meta name="theme-color" content="#144d3f">
+
+  <meta name="robots" content="index, follow" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta property="og:site_name" content="Hosted Weblate" />
+  <meta property="og:title" content="Hosted Weblate" />
+  <meta property="og:description" content="Hosted Weblate, the place to localize your software project." />
+
+
+
+
+ </head>
+
+ <body >
+ <div id="popup-alerts"></div>
+ <header>
+<nav class="navbar navbar-default navbar-static-top navbar-inverse" role="navigation">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#wl-navbar-main" id="navbar-toggle">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      
+<a class="navbar-brand" href="/"><svg width="27" height="20" version="1.1" viewBox="0 0 27 20" xmlns="http://www.w3.org/2000/svg"><path d="m13.505 4.028c-0.0017-4e-5 -0.0034-7.5e-5 -5e-3 -1.05e-4 -0.0017 3e-5 -0.0034 6.5e-5 -5e-3 1.05e-4 -0.11025-0.0015-0.22073 0.01793-0.32591 0.06238-0.59671 0.25261-0.9728 0.90036-1.2087 1.5476-0.20481 0.56175-0.29546 1.1651-0.29679 1.7605l-0.0016 0.07791c-0.0019 0.03033-0.0043 0.06055-0.0075 0.09067 0.02191 1.5184 0.30756 3.048 0.90819 4.445 0.67267 1.5645 1.7419 3.0037 3.2516 3.6616 1.1389 0.49637 2.4014 0.37928 3.4336-0.20534 1.2816-0.72588 2.2062-2.0094 2.8114-3.3878 1.2572-2.8648 1.2874-6.3574 0.03289-9.2972 1.2227-0.63339 1.22-1.8963 1.22-1.8963s1.1453 0.82078 2.4332 0.30544c1.715 4.0186 1.6736 8.75-0.13474 12.708-1.0572 2.3139-2.7738 4.3411-5.0202 5.384-1.9998 0.9286-4.3513 0.9518-6.3527 0.07963-1.7985-0.78402-3.2613-2.1966-4.3137-3.839-1.5242-2.3788-2.246-5.2748-2.2492-8.1286h0.01183c-9.01e-4 -0.03006-0.0013-0.06012-9.54e-4 -0.09024 0.02318-2.5663 1.0748-5.18 3.1841-6.5213 0.77462-0.49257 1.6798-0.77459 2.5936-0.78467 0.01046-8.1e-5 0.02122-1.32e-4 0.03183-1.51e-4 0.01379-1e-5 0.02811 4.4e-5 0.04191 1.51e-4 0.91371 0.01007 1.8189 0.2921 2.5936 0.78467 2.1093 1.3413 3.1609 3.9551 3.1841 6.5213 3.18e-4 0.03012-5.3e-5 0.06018-9.55e-4 0.09024h0.01183c-0.0031 2.7121-0.65515 5.4624-2.0282 7.7706-0.39383-2e-3 -0.78628-0.08215-1.1562-0.24339-0.83333-0.36312-1.5671-1.0489-2.1641-1.9768 0.17024-0.30266 0.32367-0.61606 0.46065-0.93466 0.60064-1.3969 0.88629-2.9266 0.90819-4.445-0.0032-0.03012-0.0057-0.06034-0.0075-0.09067l-0.0016-0.07792c-0.0013-0.59534-0.09198-1.1987-0.29679-1.7605-0.23595-0.64722-0.61204-1.295-1.2087-1.5476-0.10522-0.04446-0.21573-0.06389-0.32591-0.06255v1.8e-4zm-0.88468 15.396c-1.97 0.81042-4.258 0.76693-6.2107-0.13979-2.2465-1.043-3.963-3.0701-5.0202-5.384-1.8083-3.9579-1.8497-8.6893-0.13474-12.708 1.2879 0.51534 2.4332-0.30544 2.4332-0.30544s-0.0027 1.2629 1.22 1.8963c-1.2545 2.9398-1.2243 6.4325 0.03289 9.2972 0.60525 1.3784 1.5298 2.662 2.8114 3.3878 0.45742 0.25906 0.96005 0.42632 1.4771 0.48907 0.0019 3e-3 0.0038 6e-3 0.0057 9e-3 0.91308 1.425 2.0633 2.6126 3.3853 3.4577z"/></svg>Hosted Weblate</a>
+
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="wl-navbar-main">
+      <ul class="nav navbar-nav">
+        <li><a href="/">Dashboard</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" id="projects-menu">Projects <b class="caret"></b></a>
+          <ul class="dropdown-menu">
+            
+            
+            <li><a href="/projects/tmd/">TMD</a></li>
+            
+            <li role="separator" class="divider"></li>
+            
+            
+            <li><a href="/accounts/profile/#notifications">Manage watched projects</a></li>
+            <li role="separator" class="divider"></li>
+            
+            <li><a href="/projects/">Browse all projects</a></li>
+          </ul>
+        </li>
+        
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" id="languages-menu">Languages <b class="caret"></b></a>
+          <ul class="dropdown-menu">
+          
+          
+            <li><a href="/accounts/profile/#languages">Manage translated languages</a></li>
+            <li role="separator" class="divider"></li>
+          
+            <li><a href="/languages/">Browse all languages</a></li>
+          </ul>
+        </li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" id="checks-menu">Checks <b class="caret"></b></a>
+          <ul class="dropdown-menu">
+            
+            
+            <li><a href="/checks/?project=tmd">Failed checks in TMD</a></li>
+            
+            <li role="separator" class="divider"></li>
+            
+            
+            <li><a href="/checks/">Checks overview</a></li>
+          </ul>
+        </li>
+        
+      </ul>
+      <ul class="nav navbar-nav navbar-right flip">
+
+        
+        
+
+        
+        
+
+        
+        
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown"><svg width="24" height="24" version="1.1" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="m19 13h-6v6h-2v-6h-6v-2h6v-6h2v6h6v2z"/></svg> Add <b class="caret"></b></a>
+          <ul class="dropdown-menu">
+            <li><a href="/create/project/">Add new translation project</a></li>
+            <li><a href="/create/component/">Add new translation component</a></li>
+            
+            <li role="separator" class="divider"></li>
+            <li><a href="/create/billing/?upgrade=1">Purchase new hosting plan</a></li>
+            
+          </ul>
+        </li>
+        
+
+        
+        
+        <li class="dropdown">
+          <a href="#" id="user-dropdown" class="dropdown-toggle" data-toggle="dropdown" title="Your profile">
+            
+            <img class="avatar" alt="User avatar" src="/avatar/24/binhnt1804.png" />
+            <span class="visible-xs-inline">Your profile</span>
+            
+            <b class="caret"></b>
+          </a>
+          <ul class="dropdown-menu">
+            <li class="dropdown-header" id="profile-name"><b>Binh Nguyen</b><br />@binhnt1804</li>
+            <li role="separator" class="divider"></li>
+            <li><a class="button" id="profile-button" href="/user/binhnt1804/">Profile</a></li>
+            
+            <li><a class="button" id="billing-button" href="/billing/">Billing overview</a></li>
+            
+            <li><a id="memory-button" href="/memory/">Translation memory</a></li>
+            <li><a class="button" id="settings-button" href="/accounts/profile/">Settings</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a class="button link-post" id="logout-button" href="/accounts/logout/">Sign out</a></li>
+          </ul>
+        </li>
+        
+
+        
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" title="Help">
+            <svg width="16" height="4" version="1.1" viewBox="0 0 16 4" xmlns="http://www.w3.org/2000/svg"><path d="m12 2c0-1.1046 0.89543-2 2-2s2 0.89543 2 2-0.89543 2-2 2-2-0.89543-2-2zm-6 0c0-1.1046 0.89543-2 2-2s2 0.89543 2 2-0.89543 2-2 2-2-0.89543-2-2zm-6 0c0-1.1046 0.89543-2 2-2s2 0.89543 2 2-0.89543 2-2 2-2-0.89543-2-2z"/></svg>
+            <span class="visible-xs-inline">Help</span>
+          </a>
+          <ul class="dropdown-menu">
+            <li><a href="https://weblate.org/support/">Support</a></li>
+            <li><a href="/contact/">Contact</a></li>
+            <li><a href="/about/">About Weblate</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="https://docs.weblate.org/en/latest/index.html">Documentation</a></li>
+            <li><a href="https://weblate.org/contribute/">Contribute to Weblate</a></li>
+            <li><a href="https://weblate.org/donate/">Donate to Weblate</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<h1>
+<ol class="breadcrumb">
+<li class="bread-icon">
+<svg width="24" height="24" version="1.1" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="m2 10.96c-0.5-0.28-0.65-0.89-0.37-1.37l1.5-2.59c0.11-0.2 0.28-0.34 0.47-0.42l7.83-4.4c0.16-0.12 0.36-0.18 0.57-0.18s0.41 0.06 0.57 0.18l7.9 4.44c0.19 0.1 0.35 0.26 0.44 0.46l1.45 2.52c0.28 0.48 0.11 1.09-0.36 1.36l-1 0.58v4.96c0 0.38-0.21 0.71-0.53 0.88l-7.9 4.44c-0.16 0.12-0.36 0.18-0.57 0.18s-0.41-0.06-0.57-0.18l-7.9-4.44c-0.32-0.17-0.53-0.5-0.53-0.88v-5.54c-0.3 0.17-0.68 0.18-1 0m10-6.81v6.7l5.96-3.35-5.96-3.35m-7 11.76 6 3.38v-6.71l-6-3.37v6.7m14 0v-3.22l-5 2.9c-0.33 0.18-0.7 0.17-1 0.01v3.69l6-3.38m-5.15-2.55 6.28-3.63-0.58-1.01-6.28 3.63 0.58 1.01z"/></svg>
+</li>
+
+<li><a href="/create/component/">Create component</a></li>
+
+</ol>
+<div class="clearfix"></div>
+</h1>
+
+</header>
+
+<div class="content ">
+
+
+
+
+
+
+
+<form method="post" enctype="multipart/form-data">
+<input type="hidden" name="csrfmiddlewaretoken" value="HQLnkwlGONKxS9HNKY6G5ZuybTobSEntvZkHnPVjLn3MMWSAzy0C8MNYwAbsDFfX">
+<div class="panel panel-default">
+<div class="panel-heading">
+<h4 class="panel-title">
+
+
+
+<a class="pull-right flip doc-link" href="https://docs.weblate.org/en/latest/admin/projects.html#component" title="Documentation" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" version="1.1" viewBox="0 0 14 14"><path fill="#bfc3c7" d="m7 14c-3.92 0-7-3.08-7-7s3.08-7 7-7 7 3.08 7 7-3.08 7-7 7zm0-2c2.8 0 5-2.2 5-5s-2.2-5-5-5-5 2.2-5 5 2.2 5 5 5zm1-7h-2v-2h2zm0 6h-2v-5h2z"/></svg></a>
+
+
+Add new translation component
+</h4>
+</div>
+<div class="panel-body">
+
+
+<input type="hidden" name="csrfmiddlewaretoken" value="HQLnkwlGONKxS9HNKY6G5ZuybTobSEntvZkHnPVjLn3MMWSAzy0C8MNYwAbsDFfX"> <div id="div_id_name" class="form-group"> <label for="id_name" class="control-label  requiredField">
+                Component name<span class="asteriskField">*</span> <a  href="https://docs.weblate.org/en/latest/admin/projects.html#component-name" title="Documentation" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" version="1.1" viewBox="0 0 14 14"><path fill="#bfc3c7" d="m7 14c-3.92 0-7-3.08-7-7s3.08-7 7-7 7 3.08 7 7-3.08 7-7 7zm0-2c2.8 0 5-2.2 5-5s-2.2-5-5-5-5 2.2-5 5 2.2 5 5 5zm1-7h-2v-2h2zm0 6h-2v-5h2z"/> </svg></a> </label> <div class="controls "> <input type="text" name="name" value="Android" maxlength="100" class="textinput textInput form-control" required id="id_name"> <p id="hint_id_name" class="help-block">Display name</p> </div> </div> <div id="div_id_slug" class="form-group"> <label for="id_slug" class="control-label  requiredField">
+                URL slug<span class="asteriskField">*</span> <a  href="https://docs.weblate.org/en/latest/admin/projects.html#component-slug" title="Documentation" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" version="1.1" viewBox="0 0 14 14"><path fill="#bfc3c7" d="m7 14c-3.92 0-7-3.08-7-7s3.08-7 7-7 7 3.08 7 7-3.08 7-7 7zm0-2c2.8 0 5-2.2 5-5s-2.2-5-5-5-5 2.2-5 5 2.2 5 5 5zm1-7h-2v-2h2zm0 6h-2v-5h2z"/> </svg></a> </label> <div class="controls "> <input type="text" name="slug" value="android" maxlength="100" class="textinput textInput form-control" required id="id_slug"> <p id="hint_id_slug" class="help-block">Name used in URLs and filenames.</p> </div> </div> <div id="div_id_project" class="form-group"> <label for="id_project" class="control-label  requiredField">
+                Project<span class="asteriskField">*</span> <a  href="https://docs.weblate.org/en/latest/admin/projects.html#component-project" title="Documentation" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" version="1.1" viewBox="0 0 14 14"><path fill="#bfc3c7" d="m7 14c-3.92 0-7-3.08-7-7s3.08-7 7-7 7 3.08 7 7-3.08 7-7 7zm0-2c2.8 0 5-2.2 5-5s-2.2-5-5-5-5 2.2-5 5 2.2 5 5 5zm1-7h-2v-2h2zm0 6h-2v-5h2z"/> </svg></a> </label> <div class="controls "> <select name="project" class="select form-control" id="id_project"> <option value="642" selected>TMD</option>
+
+</select> </div> </div> <div id="div_id_source_language" class="form-group"> <label for="id_source_language" class="control-label  requiredField">
+                Source language<span class="asteriskField">*</span> <a  href="https://docs.weblate.org/en/latest/admin/projects.html#component-source-language" title="Documentation" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" version="1.1" viewBox="0 0 14 14"><path fill="#bfc3c7" d="m7 14c-3.92 0-7-3.08-7-7s3.08-7 7-7 7 3.08 7 7-3.08 7-7 7zm0-2c2.8 0 5-2.2 5-5s-2.2-5-5-5-5 2.2-5 5 2.2 5 5 5zm1-7h-2v-2h2zm0 6h-2v-5h2z"/> </svg></a> </label> <div class="controls "> <select name="source_language" class="sortedselect form-control" required id="id_source_language"> <option value="">---------</option> <option value="295">Abkhazian</option> <option value="383">Acehnese</option> <option value="154">Acholi</option> <option value="429">Adyghe</option> <option value="294">Afar</option> <option value="82">Afrikaans</option> <option value="84">Akan</option> <option value="115">Albanian</option> <option value="389">Alemannic</option> <option value="85">Amharic</option> <option value="155">Angika</option> <option value="88">Arabic</option> <option value="242">Arabic (Algeria)</option> <option value="600">Arabic (Bahrain)</option> <option value="458">Arabic (Egypt)</option> <option value="459">Arabic (Kuwait)</option> <option value="762">Arabic (Libya)</option> <option value="173">Arabic (Morocco)</option> <option value="384">Arabic (Najdi)</option> <option value="430">Arabic (Saudi Arabia)</option> <option value="683">Arabic (XB pseudolocale)</option> <option value="601">Arabic (Yemen)</option> <option value="87">Aragonese</option> <option value="63">Armenian</option> <option value="156">Assamese</option> <option value="44">Asturian</option> <option value="766">Asturian (ast_ES)</option> <option value="385">Asu</option> <option value="297">Avaric</option> <option value="296">Avestan</option> <option value="157">Aymará</option> <option value="92">Azerbaijani</option> <option value="300">Bambara</option> <option value="221">Bashkir</option> <option value="33">Basque</option> <option value="284">Bavarian</option> <option value="40">Belarusian</option> <option value="134">Belarusian (latin)</option> <option value="347">Bemba</option> <option value="386">Bena</option> <option value="39">Bengali</option> <option value="275">Bengali (Bangladesh)</option> <option value="94">Bengali (India)</option> <option value="653">Berber</option> <option value="709">Bhojpuri</option> <option value="298">Bihari</option> <option value="364">Bilen</option> <option value="733">biodentis (generated) (biodentis)</option> <option value="299">Bislama</option> <option value="158">Bodo</option> <option value="48">Bosnian</option> <option value="254">Bosnian (cyrillic)</option> <option value="253">Bosnian (latin)</option> <option value="47">Breton</option> <option value="41">Bulgarian</option> <option value="167">Burmese</option> <option value="797">Burmese (my_MM)</option> <option value="734">cadstar (generated) (cadstar)</option> <option value="798">cak (generated) (cak)</option> <option value="735">cares (generated) (cares)</option> <option value="53">Catalan</option> <option value="807">Catalan (ca_VALENCIA)</option> <option value="433">Cebuano</option> <option value="423">Central Atlas Tamazight</option> <option value="118">Central Khmer</option> <option value="138">Central Kurdish</option> <option value="712">Central Kurdish (Iran)</option> <option value="711">Central Kurdish (Iraq)</option> <option value="226">Chamorro</option> <option value="301">Chechen</option> <option value="206">Cherokee</option> <option value="162">Chhattisgarhi</option> <option value="159">Chiga</option> <option value="793">chinese (generated) (chinese)</option> <option value="654">Chinese (Min Nan)</option> <option value="761">Chinese (Pinyin)</option> <option value="186">Chinese (Simplified)</option> <option value="684">Chinese (Simplified, Singapore)</option> <option value="728">Chinese (Simplified) (zh_LATN@pinyin)</option> <option value="185">Chinese (Traditional)</option> <option value="22">Chinese (Traditional, Hong Kong)</option> <option value="773">Chuukese</option> <option value="304">Chuvash</option> <option value="152">Colognian</option> <option value="122">Cornish</option> <option value="302">Corsican</option> <option value="207">Cree</option> <option value="348">Crimean Tatar</option> <option value="64">Croatian</option> <option value="56">Czech</option> <option value="736">Czech (cs_CARES)</option> <option value="794">czech (generated) (czech)</option> <option value="25">Danish</option> <option value="387">Dari</option> <option value="804">_DE (generated) (_DE)</option> <option value="808">dgo (generated) (dgo)</option> <option value="287">Dhivehi</option> <option value="160">Dogri</option> <option value="96">Dutch</option> <option value="139">Dutch (Belgium)</option> <option value="748">Dutch (nl_CARES)</option> <option value="646">Dutch (nl_TND)</option> <option value="739">dwosle (generated) (dwosle)</option> <option value="26">Dzongkha</option> <option value="805">_EN (generated) (_EN)</option> <option value="31" selected>English</option> <option value="176">English (Australia)</option> <option value="178">English (Canada)</option> <option value="732">English (Developer)</option> <option value="594">English (India)</option> <option value="249">English (Ireland)</option> <option value="432">English (New Zealand)</option> <option value="241">English (Philippines)</option> <option value="28">English (South Africa)</option> <option value="62">English (United Kingdom)</option> <option value="135">English (United States)</option> <option value="607">English (United States) (en_US@rude)</option> <option value="760">English (XA pseudolocale)</option> <option value="30">Esperanto</option> <option value="34">Estonian</option> <option value="305">Ewe</option> <option value="707">Extremaduran</option> <option value="111">Faroese</option> <option value="306">Fijian</option> <option value="20">Filipino</option> <option value="110">Finnish</option> <option value="179">Franco-Provençal</option> <option value="105">French</option> <option value="278">French (Antigua and Barbuda)</option> <option value="461">French (Belgium)</option> <option value="194">French (Canada)</option> <option value="741">French (fr_CARES)</option> <option value="758">French (fr_STRAUMANN)</option> <option value="817">french (generated) (french)</option> <option value="691">French (Luxembourg)</option> <option value="388">French (Switzerland)</option> <option value="106">Frisian</option> <option value="71">Friulian</option> <option value="140">Fulah</option> <option value="5">Gaelic</option> <option value="7">Galician</option> <option value="809">gbm (generated) (gbm)</option> <option value="365">Ge&#x27;ez</option> <option value="610">😃 (generated) (😃)</option> <option value="112">Georgian</option> <option value="24">German</option> <option value="227">German (Austria)</option> <option value="737">German (de_CARES)</option> <option value="606">German (de_DE@rude)</option> <option value="603">German (de_DIVEO)</option> <option value="281">German (de_FORM)</option> <option value="757">German (de_STRAUMANN)</option> <option value="738">German (de_ZENO)</option> <option value="818">german (generated) (german)</option> <option value="209">German (Low)</option> <option value="690">German (Luxembourg)</option> <option value="191">German (Switzerland)</option> <option value="351">German (Walser)</option> <option value="317">Gikuyu</option> <option value="29">Greek</option> <option value="164">Greenlandic</option> <option value="307">Guarani</option> <option value="810">gug (generated) (gug)</option> <option value="1">Gujarati</option> <option value="694">Gujarati (India)</option> <option value="27">Gun</option> <option value="390">Gun</option> <option value="148">Haitian</option> <option value="68">Hausa</option> <option value="208">Hawaiian</option> <option value="69">Hebrew</option> <option value="705">Hebrew (Israel)</option> <option value="310">Herero</option> <option value="361">Hiligaynon</option> <option value="67">Hindi</option> <option value="764">Hindi (latin)</option> <option value="309">Hiri Motu</option> <option value="66">Hungarian</option> <option value="441">Hunsrik</option> <option value="61">Icelandic</option> <option value="314">Ido</option> <option value="279">Igbo</option> <option value="417">Inari Sami</option> <option value="93">Indonesian</option> <option value="91">Interlingua</option> <option value="315">Inuktitut</option> <option value="313">Inupiaq</option> <option value="6">Irish</option> <option value="86">Italian</option> <option value="795">italian (generated) (italian)</option> <option value="742">Italian (it_CARES)</option> <option value="363">Jamaican Patois</option> <option value="49">Japanese</option> <option value="796">japanese (generated) (japanese)</option> <option value="743">Japanese (ja_CARES)</option> <option value="457">Japanese (Kansai)</option> <option value="45">Javanese</option> <option value="393">Jju</option> <option value="396">Kabuverdianu</option> <option value="272">Kabyle</option> <option value="397">Kako</option> <option value="117">Kannada</option> <option value="319">Kanuri</option> <option value="276">Kashmiri</option> <option value="101">Kashubian</option> <option value="113">Kazakh</option> <option value="170">Kinyarwanda</option> <option value="143">Klingon</option> <option value="144">Klingon (pIqaD)</option> <option value="688">Kokturk</option> <option value="320">Komi</option> <option value="316">Kongo</option> <option value="273">Konkani</option> <option value="116">Korean</option> <option value="413">Koyraboro Senni</option> <option value="123">Kurdish</option> <option value="318">Kwanyama</option> <option value="125">Kyrgyz</option> <option value="725">Laki</option> <option value="400">Lakota</option> <option value="399">Langi</option> <option value="10">Lao</option> <option value="744">laserdenta (generated) (laserdenta)</option> <option value="252">Latin</option> <option value="13">Latvian</option> <option value="145">Limburgish</option> <option value="9">Lingala</option> <option value="14">Lithuanian</option> <option value="745">Lithuanian (lt_CARES)</option> <option value="163">Lojban</option> <option value="359">Lower Sorbian</option> <option value="322">Luba-Katanga</option> <option value="321">Luganda</option> <option value="416">Lule Sami</option> <option value="8">Luxembourgish</option> <option value="746">lyra (generated) (lyra)</option> <option value="76">Macedonian</option> <option value="392">Machame</option> <option value="109">Maithili</option> <option value="395">Makonde</option> <option value="70">Malagasy</option> <option value="79">Malay</option> <option value="73">Malayalam</option> <option value="731">Malay (Jawi)</option> <option value="77">Maltese</option> <option value="166">Mandinka</option> <option value="165">Manipuri</option> <option value="308">Manx</option> <option value="75">Maori</option> <option value="35">Mapudungun</option> <option value="80">Marathi</option> <option value="358">Mari</option> <option value="323">Marshallese</option> <option value="401">Masai</option> <option value="349">Meadow Mari</option> <option value="763">messages (generated) (messages)</option> <option value="402">Metaʼ</option> <option value="616">Miami</option> <option value="747">microdent (generated) (microdent)</option> <option value="407">Moldavian</option> <option value="74">Mongolian</option> <option value="286">Montenegrin</option> <option value="2">Morisyen</option> <option value="99">Nahuatl</option> <option value="403">Nama</option> <option value="325">Nauru</option> <option value="329">Navaho</option> <option value="327">Ndonga</option> <option value="102">Neapolitan</option> <option value="100">Nepali</option> <option value="404">Ngiemboon</option> <option value="391">Ngomba</option> <option value="147">N’Ko</option> <option value="806">_NL (generated) (_NL)</option> <option value="356">Northern Kurdish</option> <option value="811">Northern Kurdish (kmr_LATN)</option> <option value="168">Northern Sami</option> <option value="326">North Ndebele</option> <option value="449">Norwegian Bokmål</option> <option value="789">Norwegian Bokmål (norwegian_BOKMAL)</option> <option value="98">Norwegian Nynorsk</option> <option value="312">Nuosu</option> <option value="211">Nyanja</option> <option value="405">Nyankole</option> <option value="311">Occidental</option> <option value="50">Occitan</option> <option value="51">Odia</option> <option value="212">Ojibwe</option> <option value="303">Old Church Slavonic</option> <option value="749">opera (generated) (opera)</option> <option value="330">Oromo</option> <option value="710">Osage</option> <option value="177">Ossetian</option> <option value="801">Ossetian (os_OS)</option> <option value="774">Palauan</option> <option value="331">Pali</option> <option value="95">Papiamento</option> <option value="812">Papiamento (pap_CW)</option> <option value="57">Pashto</option> <option value="52">Pedi</option> <option value="108">Persian</option> <option value="32">Piemontese</option> <option value="271">Pirate</option> <option value="775">Pohnpeian</option> <option value="78">Polish</option> <option value="750">Polish (pl_CARES)</option> <option value="608">Polish (pl_PL@rude)</option> <option value="58">Portuguese</option> <option value="450">Portuguese (Angola)</option> <option value="23">Portuguese (Brazil)</option> <option value="137">Portuguese (Portugal)</option> <option value="751">Portuguese (pt_CARES)</option> <option value="406">Prussian</option> <option value="59">Punjabi</option> <option value="767">Punjabi (pa_PK)</option> <option value="799">quc (generated) (quc)</option> <option value="332">Quechua</option> <option value="768">Quechua (qu_EC)</option> <option value="816">resourcify (generated) (resourcify)</option> <option value="803">Réunion Creole</option> <option value="38">Romanian</option> <option value="37">Romansh</option> <option value="408">Rombo</option> <option value="333">Rundi</option> <option value="36">Russian</option> <option value="819">russian (generated) (russian)</option> <option value="756">Russian (ru_CARES)</option> <option value="714">Russian (ru_CH)</option> <option value="752">Russian (ru_DWOS)</option> <option value="682">Russian (Ukraine)</option> <option value="334">Rusyn</option> <option value="409">Rwa</option> <option value="419">Saho</option> <option value="410">Samburu</option> <option value="415">Sami</option> <option value="336">Samoan</option> <option value="335">Sango</option> <option value="274">Sanskrit</option> <option value="813">Sanskrit (sa_IN)</option> <option value="171">Santali</option> <option value="153">Sardinian</option> <option value="753">scanlab (generated) (scanlab)</option> <option value="3">Scots</option> <option value="412">Sena</option> <option value="114">Serbian</option> <option value="247">Serbian (cyrillic)</option> <option value="246">Serbian (latin)</option> <option value="697">Serbian (rs_AR)</option> <option value="398">Shambala</option> <option value="350">Shan</option> <option value="754">shera (generated) (shera)</option> <option value="280">Shona</option> <option value="689">Sicilian</option> <option value="814">sid (generated) (sid)</option> <option value="282">Silesian</option> <option value="172">Sindhi</option> <option value="121">Sinhala</option> <option value="418">Skolt Sami</option> <option value="120">Slovak</option> <option value="124">Slovenian</option> <option value="425">Soga</option> <option value="104">Somali</option> <option value="54">Songhai</option> <option value="360">Sorbian</option> <option value="411">Southern Kurdish</option> <option value="337">Southern Sami</option> <option value="119">Southern Sotho</option> <option value="328">South Ndebele</option> <option value="103">Spanish</option> <option value="245">Spanish (American)</option> <option value="161">Spanish (Argentina)</option> <option value="693">Spanish (Bolivia)</option> <option value="357">Spanish (Chile)</option> <option value="597">Spanish (Dominican Republic)</option> <option value="382">Spanish (Ecuador)</option> <option value="740">Spanish (es_CARES)</option> <option value="820">spanish (generated) (spanish)</option> <option value="599">Spanish (Latin America)</option> <option value="192">Spanish (Mexico)</option> <option value="593">Spanish (Peru)</option> <option value="193">Spanish (Puerto Rico)</option> <option value="686">Spanish (Venezuela)</option> <option value="759">straumann (generated) (straumann)</option> <option value="89">Sundanese</option> <option value="83">Swahili</option> <option value="420">Swahili (Congo)</option> <option value="815">Swahili (sw_TZ)</option> <option value="338">Swati</option> <option value="107">Swedish</option> <option value="421">Syriac</option> <option value="414">Tachelhit</option> <option value="146">Tagalog</option> <option value="342">Tahitian</option> <option value="18">Tajik</option> <option value="21">Tamil</option> <option value="352">Tamil (Sri Lanka)</option> <option value="11">Tatar</option> <option value="366">Tatar (IQTElif)</option> <option value="19">Telugu</option> <option value="422">Teso</option> <option value="802">test_BALBUZARD (generated) (test_BALBUZARD)</option> <option value="16">Thai</option> <option value="46">Tibetan</option> <option value="362">Tigre</option> <option value="17">Tigrinya</option> <option value="340">Tongan</option> <option value="180">Tsonga</option> <option value="339">Tswana</option> <option value="12">Turkish</option> <option value="15">Turkmen</option> <option value="341">Twi</option> <option value="394">Tyap</option> <option value="800">tzj (generated) (tzj)</option> <option value="42">Ukrainian</option> <option value="267">Upper Sorbian</option> <option value="127">Urdu</option> <option value="765">Urdu (India)</option> <option value="216">Urdu (Pakistan)</option> <option value="81">Uyghur</option> <option value="129">Uzbek</option> <option value="262">Uzbek (latin)</option> <option value="687">Uzbek (uz@cyrillic)</option> <option value="4">Valencian</option> <option value="149">Venda</option> <option value="218">Venetian</option> <option value="60">Vietnamese</option> <option value="343">Volapük</option> <option value="424">Vunjo</option> <option value="43">Walloon</option> <option value="55">Welsh</option> <option value="141">West Flemish</option> <option value="367">Wolaytta</option> <option value="150">Wolof</option> <option value="344">Xhosa</option> <option value="151">Yakut</option> <option value="776">Yapese</option> <option value="229">Yiddish</option> <option value="97">Yoruba</option> <option value="277">Yue</option> <option value="755">zeno (generated) (zeno)</option> <option value="345">Zhuang</option> <option value="90">Zulu</option>
+
+</select> <p id="hint_id_source_language" class="help-block">Language used for source strings in all components</p> </div> </div> <div id="div_id_vcs" class="form-group"> <label for="id_vcs" class="control-label  requiredField">
+                Version control system<span class="asteriskField">*</span> <a  href="https://docs.weblate.org/en/latest/admin/projects.html#component-vcs" title="Documentation" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" version="1.1" viewBox="0 0 14 14"><path fill="#bfc3c7" d="m7 14c-3.92 0-7-3.08-7-7s3.08-7 7-7 7 3.08 7 7-3.08 7-7 7zm0-2c2.8 0 5-2.2 5-5s-2.2-5-5-5-5 2.2-5 5 2.2 5 5 5zm1-7h-2v-2h2zm0 6h-2v-5h2z"/> </svg></a> </label> <div class="controls "> <select name="vcs" class="select form-control" id="id_vcs"> <option value="gerrit">Gerrit</option> <option value="git">Git</option> <option value="git-force-push">Git with force push</option> <option value="github" selected>GitHub</option> <option value="gitlab">GitLab</option> <option value="mercurial">Mercurial</option> <option value="subversion">Subversion</option>
+
+</select> <p id="hint_id_vcs" class="help-block">Version control system to use to access your repository with translations.</p> </div> </div> <div id="div_id_repo" class="form-group has-error"> <label for="id_repo" class="control-label  requiredField">
+                Source code repository<span class="asteriskField">*</span> <a  href="https://docs.weblate.org/en/latest/admin/projects.html#component-repo" title="Documentation" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" version="1.1" viewBox="0 0 14 14"><path fill="#bfc3c7" d="m7 14c-3.92 0-7-3.08-7-7s3.08-7 7-7 7 3.08 7 7-3.08 7-7 7zm0-2c2.8 0 5-2.2 5-5s-2.2-5-5-5-5 2.2-5 5 2.2 5 5 5zm1-7h-2v-2h2zm0 6h-2v-5h2z"/> </svg></a> </label> <div class="controls "> <input type="text" name="repo" value="https://github.com/binhnt1804/TMD.git" maxlength="200" class="textinput textInput form-control form-control-danger" required id="id_repo"> <span id="error_1_id_repo" class="help-block"><strong>Could not update repository: fatal: &#x27;origin/master&#x27; is not a commit and a branch &#x27;master&#x27; cannot be created from it
+ (128)</strong></span> <p id="hint_id_repo" class="help-block">URL of a repository, use weblate://project/component for sharing with other component.</p> </div> </div> <div id="div_id_branch" class="form-group"> <label for="id_branch" class="control-label ">
+                Repository branch
+                
+
+
+<a  href="https://docs.weblate.org/en/latest/admin/projects.html#component-branch" title="Documentation" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" version="1.1" viewBox="0 0 14 14"><path fill="#bfc3c7" d="m7 14c-3.92 0-7-3.08-7-7s3.08-7 7-7 7 3.08 7 7-3.08 7-7 7zm0-2c2.8 0 5-2.2 5-5s-2.2-5-5-5-5 2.2-5 5 2.2 5 5 5zm1-7h-2v-2h2zm0 6h-2v-5h2z"/> </svg></a> </label> <div class="controls "> <input type="text" name="branch" maxlength="200" class="textinput textInput form-control" id="id_branch"> <p id="hint_id_branch" class="help-block">Repository branch to translate</p> </div> </div>
+
+
+</div>
+<div class="panel-footer">
+<input type="submit" value="Continue" class="btn btn-primary" />
+</div>
+</div>
+</form>
+
+
+
+</div>
+<form id="link-post" method="POST">
+<input type="hidden" name="csrfmiddlewaretoken" value="HQLnkwlGONKxS9HNKY6G5ZuybTobSEntvZkHnPVjLn3MMWSAzy0C8MNYwAbsDFfX">
+</form>
+<!-- Creates the bootstrap modal where the image will appear -->
+<div class="modal fade fullmodal" id="imagemodal" tabindex="-1" role="dialog" aria-labelledby="screenshotModal" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+        <h4 class="modal-title" id="screenshotModal"></h4>
+      </div>
+      <div class="modal-body">
+        <img src="" id="imagepreview" class="img-responsive">
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-warning" id="modalEditLink">Edit</a>
+        <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<footer>
+ <ul>
+  <li>Powered by <a href="https://weblate.org/">Weblate 4.3-dev</a></li>
+  <li><a href="/about/">About Weblate</a></li>
+  
+  <li><a href="/legal/">Legal</a></li>
+  
+  <li><a href="https://status.weblate.org/">Service status</a></li>
+  <li><a href="/contact/">Contact</a></li>
+  <li><a href="https://docs.weblate.org/en/latest/index.html">Documentation</a></li>
+  <li><a href="https://weblate.org/donate/">Donate to Weblate</a></li>
+ </ul>
+</footer>
+
+
+<!-- Matomo -->
+<script src="/js/matomo/" async defer id="matomo-tracker" data-params='{"Language": "en"}'></script>
+<noscript><img src="https://stats.cihar.com/matomo.php?idsite=14&amp;rec=1" style="border:0" alt="" /></noscript>
+<!-- End Matomo Code -->
+
+
+
+
+ </body>
+</html>
